@@ -1,0 +1,34 @@
+.vision {
+  padding: 8rem 2rem;
+  background: white;
+}
+
+.vision-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.vision-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.vision-text {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.7;
+  color: #333;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .vision {
+    padding: 4rem 1.5rem;
+  }
+
+  .vision-content {
+    gap: 1.5rem;
+  }
+}
+
+
